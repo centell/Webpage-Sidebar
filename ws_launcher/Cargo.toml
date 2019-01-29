@@ -1,0 +1,18 @@
+[package]
+name = "ws-launcher"
+version = "0.1.0"
+authors = ["Ch. (Chanhwi Choi) <ccwpc@hanmail.net>"]
+edition = "2018"
+
+[[bin]]
+name = "ws-launcher-bin"
+path = "src/main.rs"
+
+[lib]
+name = "ws_launcher"
+path = "src/lib.rs"
+
+[dependencies]
+stdweb = "0.4"
+yew = { git = "https://github.com/DenisKolodin/yew", branch = "master" }
+webextensions-api = { version = "0.1", path = "../webextensions_api" }

@@ -1,0 +1,8 @@
+[package]
+name = "webextensions-api"
+version = "0.1.0"
+authors = ["Ch. (Chanhwi Choi) <ccwpc@hanmail.net>"]
+edition = "2018"
+
+[dependencies]
+stdweb = "0.4"

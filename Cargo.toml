@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "ws_launcher",
+    # "ws_settings",
+    "webextensions_api"
+]
+default-members = ["ws_launcher"]
