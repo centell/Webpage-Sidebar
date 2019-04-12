@@ -1,0 +1,15 @@
+[package]
+name = "ws-model"
+version = "0.1.0"
+authors = ["Ch. (Chanhwi Choi) <ccwpc@hanmail.net>"]
+edition = "2018"
+
+[lib]
+name = "ws_model"
+path = "src/lib.rs"
+
+[dependencies]
+serde = "1"
+serde_derive = "1"
+stdweb = "0.4"
+chrono = { version = "0.4", features = ["serde"] }

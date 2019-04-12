@@ -1,0 +1,21 @@
+[package]
+name = "ws-storage"
+version = "0.1.0"
+authors = ["Ch. (Chanhwi Choi) <ccwpc@hanmail.net>"]
+edition = "2018"
+
+[[bin]]
+name = "storage"
+path = "src/main.rs"
+
+[lib]
+name = "ws_storage"
+path = "src/lib.rs"
+
+[dependencies]
+ws-model = { path = "../ws_model" }
+
+stdweb = "0.4"
+serde = "1"
+serde_derive = "1"
+chrono = { version = "0.4", features = ["serde"] }

@@ -1,4 +1,10 @@
 
+extension/**/*.js
+extension/**/*.wasm
+extension/launcher/*.html
+
+package-lock.json
+
 # Created by https://www.gitignore.io/api/node,rust,intellij,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,rust,intellij,visualstudiocode
 

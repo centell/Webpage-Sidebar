@@ -5,7 +5,7 @@ authors = ["Ch. (Chanhwi Choi) <ccwpc@hanmail.net>"]
 edition = "2018"
 
 [[bin]]
-name = "ws-launcher-bin"
+name = "launcher"
 path = "src/main.rs"
 
 [lib]
@@ -13,6 +13,14 @@ name = "ws_launcher"
 path = "src/lib.rs"
 
 [dependencies]
+ws-model = {path = "../ws_model" }
+
 stdweb = "0.4"
-yew = { git = "https://github.com/DenisKolodin/yew", branch = "master" }
-webextensions-api = { version = "0.1", path = "../webextensions_api" }
+yew = "0.5"
+serde = "1"
+serde_derive = "1"
+chrono = { version = "0.4", features = ["serde"] }
+# no serde_json because this addin internally not serialize its data to json
+
+# future?
+#webextensions-api = { version = "0.1", path = "../webextensions_api" }

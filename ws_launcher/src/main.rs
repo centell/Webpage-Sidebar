@@ -2,10 +2,11 @@ extern crate yew;
 use yew::prelude::App;
 
 extern crate ws_launcher;
-use ws_launcher::*;
+use ws_launcher::MainModel;
 
 fn main() {
-//    yew::initialize();
-////    App::<Model>::new();
-//    yew::run_loop();
+   yew::initialize();
+   let app = App::<MainModel>::new();
+   app.mount_to_body();
+   yew::run_loop();
 }
