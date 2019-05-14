@@ -67,5 +67,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# Jetbrain enviroment file
+.idea
 
 # End of https://www.gitignore.io/api/node

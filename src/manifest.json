@@ -31,5 +31,13 @@
     "default_icon": "icon/icon-48.png",
     "default_title": "Webpage Sidebar Viewer",
     "default_panel": "sidebar/sidebar.html"
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "F2"
+      },
+      "description": "show webpage sidebar viewer"
+    }
   }
 }
